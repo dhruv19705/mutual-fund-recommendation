@@ -11,7 +11,7 @@ Production-oriented Indian mutual fund screening and portfolio recommendation en
 
 ## What This Repository Contains
 
-This codebase is focused on the runtime pipeline only. Legacy and generated clutter has been removed to keep maintenance simple.
+This codebase focuses only on the runtime pipeline. Legacy and generated clutter have been removed to keep maintenance simple.
 
 ### Core Runtime Files
 
