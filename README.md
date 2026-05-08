@@ -91,8 +91,8 @@ flowchart LR
     end
 
     subgraph S2[Stage 2: Fund Universe and AUM Mapping]
-        B1[build_universe(source_mode='combined')]
-        B2[build_aum_lookup(universe_source='combined')]
+        B1[build_universe]
+        B2[build_aum_lookup]
         B3[Attach aum_cr to each discovered fund]
         B4[Pre-filter candidates by AUM and closed-end keywords]
         B5[Resolve scheme code/name via MFAPI search fallback]
